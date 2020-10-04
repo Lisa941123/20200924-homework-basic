@@ -8,9 +8,9 @@ int main() {
     cin >> count;
 
     for (int i; i < count; i ++) {
-            cout << i + 1 << "-";
-            cin >> num;
-            total = total + num;
+        cout << i + 1 << "-";
+        cin >> num;
+        total = total + num;
     }
     
     cout << "total=" << total;
